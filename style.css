@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+body{
+    /* background:rgb(217, 205, 189) */
+    /* background-color: black; */
+    background-color: white
+    ;
+}
+
+.prime{
+    width: 100%;
+}
+/* ------------------------------------------header--------------------------------------------------------------------------- */
+header{
+    /* display: flex; */
+    background-color: #8bd9a5;
+    /* position:sticky; */
+
+}
+.logo{
+    display: flex;
+    flex-direction:column;
+    /* align-items: center; */
+}
+h1{
+    font-family: 'Lora', serif; 
+    font-weight: 599;
+    color: black;
+    font-size: 3rem;
+    padding:.33em;
+}
+.subtitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 229;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: -1em;
+    margin-bottom: 1.3em;
+    margin-left: 2em;
+    font-weight: 700;
+    letter-spacing: .11em;
+    
+}
+.navbar{
+    
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    /* align-items:center */
+
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    justify-content:end;
+    align-items:center;
+
+}
+nav li{
+    list-style: none;
+text-decoration: none;
+font-weight: 599;
+font-size: 2.1em;
+padding-right: 1em;
+
+}
+nav a{
+    list-style: none;
+    color:black;
+text-decoration: none;
+}
+nav a:hover{
+    font-size: 1.1em;
+    color: #881b1b;
+}
+/* ---------------------------------------section1--------------------------------------------images------------------------------------------ */
+.top-image{
+    width: 100%;
+    height: 22em;
+    /* margin-left: 2em; */
+
+    margin-top:2em;
+    margin-bottom: 1em; 
+}
+.img-mains{
+    max-width: 27em;
+    width:100%;
+    border-radius: 4px;
+
+    height:83%;
+    
+}
+/* -----------------------------------------------------------------------------------section2-------------------------------- */
+h2{
+    text-align: center;
+    padding: 1em;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 17em;
+    padding: .91em;
+    padding-top: 2em;
+}
+.con{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 40%;
+    /* height: 30%; */
+    /* max-height: 50%; */
+}
+footer{
+    display: flex;
+    background-color:#8bd9a5;
+    /* text-align: center; */
+    height: 2.3em;
+    justify-content: center;
+}
+.para{
+    color: black;
+    text-align: center;
+    letter-spacing: .38em;
+    
+}
+.footer-p{
+    font-size: 1em;
+    padding: .6em; 
+}
+
+h2{
+    font-family: 'Lora', serif; 
+    font-weight: 599;
+    color:black;
+    font-size: 1.5rem;
+    background-color: #8bd9a5;
+    padding:.33em;
+}
+/* ------------------------------------------------------------------------MQ for 900px------------------------------------ */
+@media screen  and (max-width:900px){
+    h1{
+        font-size:2em ;
+    }
+    .subtitle{
+        font-size: .80em;
+    }
+    nav li{
+        
+    font-size: 1.5em;
+    padding-right: 1em;
+    
+    }
+}
+/* ---------------------------------------------------------------------------MQ for 656__________________________________ */
+@media screen  and (max-width:656px){
+    h1{
+        font-size:1.8em ;
+    }
+    .subtitle{
+        font-size: .80em;
+    }
+    nav li{
+        
+    font-size: 1.4em;
+    padding-right: .9em;
+    
+    }
+}
+/* --------------------------------------------------------------media q for 564--------------------------------------- */
+
+@media screen  and (max-width:564px){
+  .container{
+    max-width: 100%;
+    max-height: 10em;
+    padding: .71em;
+    padding-top: 1em;
+
+  }
+  h1{
+    font-size:1.3em ;
+}
+.subtitle{
+    font-size: .55em;
+    margin-left: 1em;
+}
+  h2{
+    margin-top: .7em;
+
+  }
+  .con{
+    
+    margin-left: .9em;
+    margin-right: .9em;
+    width: 40%;
+  }
+  footer{
+    margin-top: 1em;
+  }
+}
+/* --------------------------------------------------media query for 490-------------------------------------- */
+@media screen  and (max-width:490px){
+
+    .logo{
+        display: flex;
+        flex-direction:column;
+    }
+    nav ul{
+        text-align: center;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    .container{
+    
+      max-width: 100%;
+      flex-direction:column;
+      max-height: 50%;
+      align-items: center;
+    }
+    .con{
+        /* display: flex; */
+    margin-left: 2em;
+    margin-right: 1em;
+    width: 90%;
+    max-height: 20em;
+    }
+}
+      /* ----------------------------------------------mediaquery for 451p==================================--- */
+@media screen  and (max-width:451px){
+.prime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        /* justify-content:flex-start; */
+        align-items:center;
+        margin-right:1em;
+    
+    }
+    .subtitle{
+        /* margin-top: .11em; */
+        padding: .5em;
+    font-weight: bolder;
+
+    }
+}
+      
+  
